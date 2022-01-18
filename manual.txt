@@ -1,0 +1,10 @@
+*User interface
+-User creates a profile(update,delete,)
+-book for a drop off,whole day or register for a child to that creche
+-donate some clothes or food
+-Sends messages to creche's system for feedback or for missing item
+
+*Admin 
+-Approves bookings and registartion
+-Accepts donations
+-Send Messages to user incase there's something they want to update them
