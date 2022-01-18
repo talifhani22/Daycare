@@ -25,11 +25,12 @@
         </li>
       </ul>
     </nav>
-
+    
+    <div class ="container0">
     <h2>About Us</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus laborum eum perferendis consectetur aliquid dicta mollitia quis quam doloremque quod, 
         exercitationem maiores recusandae iure perspiciatis tenetur! Quam, ipsam laboriosam!</p>
-
+</div>
         <footer>
           
         </footer>
