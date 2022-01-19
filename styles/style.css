@@ -102,3 +102,13 @@ ul li:hover ul li a {
   padding-top: 10em;
   color: black;
 }
+
+footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   /* background-color: red; */
+   color: #1da1f2;
+   text-align: center;
+}
