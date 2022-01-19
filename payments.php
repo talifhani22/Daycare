@@ -16,7 +16,7 @@
               <i class="fa fa-cc-mastercard" style="color:red;"></i>
               <i class="fa fa-cc-discover" style="color:orange;"></i>
             </div>
-            <label for="cname">Name on Card</label>
+            <label for="cname">Name of Card</label>
             <input type="text" id="cname" name="cardname" placeholder="Enter card name">
             <label for="ccnum">Credit card number</label>
             <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
@@ -36,9 +36,6 @@
           </div>
 
         </div>
-        <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-        </label>
         <input type="submit" value="Continue to checkout" class="btn">
       </form>
     </div>
