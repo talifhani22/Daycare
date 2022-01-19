@@ -14,7 +14,7 @@
         <li>
           <a href="service.php">Services</a>
         </li>
-        <li><a href="h2">About </a></li>
+        <li><a href="#">About </a></li>
         <li><a href="#">Contact </a></li>
         <li>
           <a href="#">Profile</a>
