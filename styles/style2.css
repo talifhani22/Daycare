@@ -1,7 +1,9 @@
 body {
   background: #f3f3f3;
   font-family: "Lexend Deca", sans-serif;
-  background-image: url("images1.png");
+  background-image: url("image3.jpeg");
+  background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 nav {

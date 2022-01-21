@@ -10,11 +10,12 @@
     <title>Document</title>
   </head>
   <body>
+  <div class ="container0">
   <nav>
       <ul>
         <li><a href="home.php">Home</a></li>
 </nav>
-<div class ="container0">
+
 <h>Drop Off</h>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eos eaque, reiciendis harum rerum consectetur error ea quos modi dolores odit voluptates esse fugiat.
        Illum obcaecati delectus sit dolor suscipit!</p>
