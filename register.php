@@ -13,7 +13,7 @@
                 <h2>Welcome</h2>
             </div>
            
-            <form action="db.php" method="post">
+            <form action="services.php" method="post">
 
                 <div class="form-group">
                     <label>First Name</label>

@@ -7,13 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h>Drop-Off</h>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ad temporibus ex labore id earum maiores deleniti, consequatu
-         perspiciatis ut cumque provident! Dolore atque, voluptatem odit nobis dignissimos quidem dolorum? </p>
-
-         <form method="get" action="time.php">
-         <input type = "submit" value ="Reserve" />
-          </form>
    
 </body>
 </html>

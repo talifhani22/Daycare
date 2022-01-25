@@ -11,13 +11,14 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form>
+    <form action="services.php" method="post">
         <h3>Login Here</h3>
-        <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username">
+        <label for="email">Enter Email</label>
+        <input type="text" placeholder="Email" name="email">
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
-        <button>Log In</button>
-    
+        <input type="password" placeholder="Password" name="passwd">
+        <input type="submit" class="btn btn-primary" name="submit" value="save">
+</form>
 </body>
 </html>
+
