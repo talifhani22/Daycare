@@ -4,7 +4,7 @@
 
     $uName='root';   // database user name
 
-    $password='';   // database password
+    $password='root';   // database password
 
     $dbName = "daycare"; // database name
 

@@ -26,15 +26,22 @@ if(!isset($_POST['save']))
      $fname = $_POST['fname'];
      $lname = $_POST['lname'];
      $email = $_POST['email'];
- 
-     $query = "INSERT INTO d_user (fname,lname,email)
-     VALUES ('$fname','$lname','$email')";
- 
-     if (mysqli_query($dbCon, $query)) {
-        echo "";
-     } else {
-        echo "Error: " . $sql . ":-" . mysqli_error($conn);
+     $adress = $_POST['adress'];
+     $suburb = $_POST['suburb'];
+     $cellNo = $_POST['cellNo'];
+     $passwd = $_POST['passwd'];
+     $confirm_passwd = $_POST['confirm_passwd'];
+
+     
+      $insert = mysqli_query($dbCon, "INSERT INTO d_user (fname,lname,email,adress,suburb,cellNo,passwd,confirm_passwd)
+      VALUES ('$fname','$lname','$email','$adress','$suburb','$cellNo','$passwd','$confirm_passwd');") or die(mysqli_error($dbCon));
+      
+  
+      
      }
      
-}
+ 
+    
+     
+
 ?>
