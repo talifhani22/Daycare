@@ -1,3 +1,7 @@
+<?php
+include "nav.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +46,7 @@
 
                 <div class="form-group">
                     <label>CellPhone No</label>
-                    <input type="number" name="cellNo" class="form-control"required>
+                    <input type="text" name="cellNo" class="form-control"required>
                 </div>
 
                 Password: <input type="password" placeholder="Password" name="passwd"  required>

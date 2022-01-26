@@ -10,7 +10,7 @@
   <body>
     <nav>
       <ul>
-        <li><a href="">Home</a></li>
+        <li><a href="Home.php">Home</a></li>
         <li>
           <a href="service.php">Services</a>
         </li>
@@ -25,18 +25,4 @@
         </li>
       </ul>
     </nav>
-
-    <div class ="container0">
-    <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus laborum eum perferendis consectetur aliquid dicta mollitia quis quam doloremque quod, 
-        exercitationem maiores recusandae iure perspiciatis tenetur! Quam, ipsam laboriosam!</p>
-
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus commodi itaque molestias deleniti, 
-          quod eum ea veniam nemo, fuga rerum nihil inventore dolores. Pariatur, illum. Dicta veniam animi autem assumenda?</p>
-</div>
-        <footer>
-          <p>Hello</p>
-        </footer>
-  </body>
-</html>
+</body>

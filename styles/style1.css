@@ -1,0 +1,20 @@
+h2 {
+    font-size: 3em;
+    font-weight: 300;
+    color: rgba(247, 7, 7, 0.7);
+    display: inline-block;
+    padding-bottom: 5px;
+    /* text-shadow: 1px 1px 3px $shadow-color; */
+  }
+  .background {
+    padding: 15px;
+    width: 400px;
+    min-height: 400px;
+    margin: 2% auto 0 auto;
+  }
+  
+    .shape {
+      text-align: center;
+      margin-top: 1%;
+    }
+  
