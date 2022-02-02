@@ -18,13 +18,13 @@ include "nav.php";
         <div class="shape"></div>
         <div class="shape"></div>
    
-    <form action="login.php" method="post">
+    <form action="services.php" method="post">
         <h2>Welcome to Dashboard, Login</h2>
         <label for="email">Enter Email</label>
         <input type="text" placeholder="Email" name="email">
         <label for="password">Password</label>
         <input type="password" placeholder="Password" name="passwd">
-        <input type="submit" class="btn btn-primary" name="submit" value="save">
+        <input type="submit" class="btn btn-primary" name="submit" value="submit">
 </form>
 
 </div>
@@ -33,10 +33,10 @@ include "nav.php";
 
 <?php
 
-if(isset($_POST['submit']))
+if(isset($_GET['submit']))
 {
-    $email = $_POST['email'];
-    $passwd = $_POST['passwd'];
+    $email = $_GET['email'];
+    $passwd = $_GET['passwd'];
     if(empty($email) || empty($passwd)){
         echo "
         <script>alert('Please fill the fields');</script>
@@ -49,8 +49,7 @@ else
     
     $select_d_user = "SELECT *
                         FROM d_user
-                        WHERE email = '$email'
-                        AND passwd = '$passwd'";
+                        WHERE email = '$email'";
     $run_d_user = mysqli_query($con, $select_d_user);
     $count_d_user = mysqli_num_rows($run_d_user);
     $row_d_user = mysqli_fetch_array($run_d_user);
